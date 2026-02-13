@@ -1,0 +1,17 @@
+﻿@using clgproj.UI.Services.Api
+@using clgproj.UI.Shared
+
+
+<h3>PlantHistory</h3>
+
+@code {
+
+}
+@page "/plants/@Id/history"
+@inject PlantApiService PlantApi
+
+<PageHeader Title="Plant History" />
+
+@code {
+    [Parameter] public int Id { get; set; }
+}

@@ -1,0 +1,650 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Payal\\Anonymous\\Clgproj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\repository\\implementations\\fertilizerusagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:repository\\implementations\\fertilizerusagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\repository\\interfaces\\iplantgrowthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:repository\\interfaces\\iplantgrowthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\repository\\interfaces\\icultivationmedicinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:repository\\interfaces\\icultivationmedicinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\model\\wateringschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:model\\wateringschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\model\\wateringfrequency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:model\\wateringfrequency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\model\\plantimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:model\\plantimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\model\\plantgrowthrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:model\\plantgrowthrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\model\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:model\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\model\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:model\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5657980B-23F6-4471-987D-DCB1F0AC3E3F}|..\\clgproj.UI\\clgproj.UI.csproj|c:\\payal\\anonymous\\clgproj.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\services\\implemantations\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:services\\implemantations\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\services\\implemantations\\waterrequirementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:services\\implemantations\\waterrequirementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\services\\implemantations\\wateroptimizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:services\\implemantations\\wateroptimizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\services\\implemantations\\wateringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:services\\implemantations\\wateringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\model\\plantanalysisresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:model\\plantanalysisresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\model\\bulkinvoicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:model\\bulkinvoicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5657980B-23F6-4471-987D-DCB1F0AC3E3F}|..\\clgproj.UI\\clgproj.UI.csproj|c:\\payal\\anonymous\\clgproj.ui\\shared\\pageheader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5657980B-23F6-4471-987D-DCB1F0AC3E3F}|..\\clgproj.UI\\clgproj.UI.csproj|c:\\payal\\anonymous\\clgproj.ui\\pages\\plants\\planthistory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5657980B-23F6-4471-987D-DCB1F0AC3E3F}|..\\clgproj.UI\\clgproj.UI.csproj|c:\\payal\\anonymous\\clgproj.ui\\pages\\plants\\plantanalysis.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5657980B-23F6-4471-987D-DCB1F0AC3E3F}|..\\clgproj.UI\\clgproj.UI.csproj|c:\\payal\\anonymous\\clgproj.ui\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5657980B-23F6-4471-987D-DCB1F0AC3E3F}|..\\clgproj.UI\\clgproj.UI.csproj|c:\\payal\\anonymous\\clgproj.ui\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\services\\interfaces\\ifertilizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:services\\interfaces\\ifertilizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\services\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:services\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|c:\\payal\\anonymous\\clgproj\\repository\\implementations\\plantgrowthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98361119-00BA-4FEA-8813-472D313814E6}|Clgproj.csproj|solutionrelative:repository\\implementations\\plantgrowthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5657980B-23F6-4471-987D-DCB1F0AC3E3F}|..\\clgproj.UI\\clgproj.UI.csproj|c:\\payal\\anonymous\\clgproj.ui\\pages\\fertilizer\\usage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5657980B-23F6-4471-987D-DCB1F0AC3E3F}|..\\clgproj.UI\\clgproj.UI.csproj|c:\\payal\\anonymous\\clgproj.ui\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5657980B-23F6-4471-987D-DCB1F0AC3E3F}|..\\clgproj.UI\\clgproj.UI.csproj|c:\\payal\\anonymous\\clgproj.ui\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 42,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WateringSchedule.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Model\\WateringSchedule.cs",
+              "RelativeDocumentMoniker": "Model\\WateringSchedule.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Model\\WateringSchedule.cs",
+              "RelativeToolTip": "Model\\WateringSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T11:20:26.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICultivationMedicineRepository.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Repository\\Interfaces\\ICultivationMedicineRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\ICultivationMedicineRepository.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Repository\\Interfaces\\ICultivationMedicineRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\ICultivationMedicineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:37:52.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPlantGrowthRepository.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Repository\\Interfaces\\IPlantGrowthRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IPlantGrowthRepository.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Repository\\Interfaces\\IPlantGrowthRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IPlantGrowthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:37:59.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FertilizerUsageRepository.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Repository\\Implementations\\FertilizerUsageRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Implementations\\FertilizerUsageRepository.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Repository\\Implementations\\FertilizerUsageRepository.cs",
+              "RelativeToolTip": "Repository\\Implementations\\FertilizerUsageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:37:45.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WateringFrequency.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Model\\WateringFrequency.cs",
+              "RelativeDocumentMoniker": "Model\\WateringFrequency.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Model\\WateringFrequency.cs",
+              "RelativeToolTip": "Model\\WateringFrequency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T11:20:20.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InvoiceItem.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Model\\InvoiceItem.cs",
+              "RelativeDocumentMoniker": "Model\\InvoiceItem.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Model\\InvoiceItem.cs",
+              "RelativeToolTip": "Model\\InvoiceItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T11:19:13.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswAUAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T10:58:47.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:07:16.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WaterOptimizationService.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Implemantations\\WaterOptimizationService.cs",
+              "RelativeDocumentMoniker": "Services\\Implemantations\\WaterOptimizationService.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Implemantations\\WaterOptimizationService.cs",
+              "RelativeToolTip": "Services\\Implemantations\\WaterOptimizationService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T07:06:55.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WaterRequirementRule.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Implemantations\\WaterRequirementRule.cs",
+              "RelativeDocumentMoniker": "Services\\Implemantations\\WaterRequirementRule.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Implemantations\\WaterRequirementRule.cs",
+              "RelativeToolTip": "Services\\Implemantations\\WaterRequirementRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:39:08.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlantImage.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Model\\PlantImage.cs",
+              "RelativeDocumentMoniker": "Model\\PlantImage.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Model\\PlantImage.cs",
+              "RelativeToolTip": "Model\\PlantImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:01:45.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlantGrowthRecord.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Model\\PlantGrowthRecord.cs",
+              "RelativeDocumentMoniker": "Model\\PlantGrowthRecord.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Model\\PlantGrowthRecord.cs",
+              "RelativeToolTip": "Model\\PlantGrowthRecord.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:01:41.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WateringService.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Implemantations\\WateringService.cs",
+              "RelativeDocumentMoniker": "Services\\Implemantations\\WateringService.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Implemantations\\WateringService.cs",
+              "RelativeToolTip": "Services\\Implemantations\\WateringService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T07:12:32.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Plant.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Model\\Plant.cs",
+              "RelativeDocumentMoniker": "Model\\Plant.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Model\\Plant.cs",
+              "RelativeToolTip": "Model\\Plant.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:01:02.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Implemantations\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\Implemantations\\InvoiceService.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Implemantations\\InvoiceService.cs",
+              "RelativeToolTip": "Services\\Implemantations\\InvoiceService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T07:13:22.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\clgproj.UI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\clgproj.UI\\Program.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\clgproj.UI\\Program.cs",
+              "RelativeToolTip": "..\\clgproj.UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:56:18.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PageHeader.razor",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\clgproj.UI\\Shared\\PageHeader.razor",
+              "RelativeDocumentMoniker": "..\\clgproj.UI\\Shared\\PageHeader.razor",
+              "ToolTip": "C:\\Payal\\Anonymous\\clgproj.UI\\Shared\\PageHeader.razor",
+              "RelativeToolTip": "..\\clgproj.UI\\Shared\\PageHeader.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T10:52:26.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlantAnalysisResult.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Model\\PlantAnalysisResult.cs",
+              "RelativeDocumentMoniker": "Model\\PlantAnalysisResult.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Model\\PlantAnalysisResult.cs",
+              "RelativeToolTip": "Model\\PlantAnalysisResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:48:41.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PlantHistory.razor",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\clgproj.UI\\Pages\\Plants\\PlantHistory.razor",
+              "RelativeDocumentMoniker": "..\\clgproj.UI\\Pages\\Plants\\PlantHistory.razor",
+              "ToolTip": "C:\\Payal\\Anonymous\\clgproj.UI\\Pages\\Plants\\PlantHistory.razor",
+              "RelativeToolTip": "..\\clgproj.UI\\Pages\\Plants\\PlantHistory.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T10:52:24.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PlantAnalysis.razor",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\clgproj.UI\\Pages\\Plants\\PlantAnalysis.razor",
+              "RelativeDocumentMoniker": "..\\clgproj.UI\\Pages\\Plants\\PlantAnalysis.razor",
+              "ToolTip": "C:\\Payal\\Anonymous\\clgproj.UI\\Pages\\Plants\\PlantAnalysis.razor",
+              "RelativeToolTip": "..\\clgproj.UI\\Pages\\Plants\\PlantAnalysis.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T10:52:16.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\clgproj.UI\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "..\\clgproj.UI\\Pages\\Login.razor",
+              "ToolTip": "C:\\Payal\\Anonymous\\clgproj.UI\\Pages\\Login.razor",
+              "RelativeToolTip": "..\\clgproj.UI\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T10:49:26.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BulkInvoiceRequest.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Model\\BulkInvoiceRequest.cs",
+              "RelativeDocumentMoniker": "Model\\BulkInvoiceRequest.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Model\\BulkInvoiceRequest.cs",
+              "RelativeToolTip": "Model\\BulkInvoiceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:45:54.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\clgproj.UI\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "..\\clgproj.UI\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Payal\\Anonymous\\clgproj.UI\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "..\\clgproj.UI\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T10:51:43.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PlantGrowthRepository.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Repository\\Implementations\\PlantGrowthRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Implementations\\PlantGrowthRepository.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Repository\\Implementations\\PlantGrowthRepository.cs",
+              "RelativeToolTip": "Repository\\Implementations\\PlantGrowthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:38:27.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Interfaces\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDashboardService.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Interfaces\\IDashboardService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:55:57.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IFertilizerService.cs",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Interfaces\\IFertilizerService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IFertilizerService.cs",
+              "ToolTip": "C:\\Payal\\Anonymous\\Clgproj\\Services\\Interfaces\\IFertilizerService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IFertilizerService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:56:00.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Usage.razor",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\clgproj.UI\\Pages\\Fertilizer\\Usage.razor",
+              "RelativeDocumentMoniker": "..\\clgproj.UI\\Pages\\Fertilizer\\Usage.razor",
+              "ToolTip": "C:\\Payal\\Anonymous\\clgproj.UI\\Pages\\Fertilizer\\Usage.razor",
+              "RelativeToolTip": "..\\clgproj.UI\\Pages\\Fertilizer\\Usage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T10:37:35.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\clgproj.UI\\_Imports.razor",
+              "RelativeDocumentMoniker": "..\\clgproj.UI\\_Imports.razor",
+              "ToolTip": "C:\\Payal\\Anonymous\\clgproj.UI\\_Imports.razor",
+              "RelativeToolTip": "..\\clgproj.UI\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T10:37:18.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Payal\\Anonymous\\clgproj.UI\\MainLayout.razor",
+              "RelativeDocumentMoniker": "..\\clgproj.UI\\MainLayout.razor",
+              "ToolTip": "C:\\Payal\\Anonymous\\clgproj.UI\\MainLayout.razor",
+              "RelativeToolTip": "..\\clgproj.UI\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T10:37:09.396Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

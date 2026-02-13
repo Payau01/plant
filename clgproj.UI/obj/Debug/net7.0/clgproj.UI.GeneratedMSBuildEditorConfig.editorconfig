@@ -1,0 +1,97 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = clgproj.UI
+build_property.RootNamespace = clgproj.UI
+build_property.ProjectDir = C:\Payal\Anonymous\clgproj.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Payal\Anonymous\clgproj.UI
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Payal/Anonymous/clgproj.UI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Fertilizer/Usage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVydGlsaXplclxVc2FnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Invoice/BulkSale.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52b2ljZVxCdWxrU2FsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Invoice/InvoiceList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52b2ljZVxJbnZvaWNlTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Plants/PlantAnalysis.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbnRzXFBsYW50QW5hbHlzaXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Plants/PlantDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbnRzXFBsYW50RGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Plants/PlantHistory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbnRzXFBsYW50SGlzdG9yeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Plants/PlantList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbnRzXFBsYW50TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Watering/Execute.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2F0ZXJpbmdcRXhlY3V0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Watering/Logs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2F0ZXJpbmdcTG9ncy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Pages/Watering/Schedule.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2F0ZXJpbmdcU2NoZWR1bGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Shared/LoadingSpinner.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvYWRpbmdTcGlubmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/Shared/PageHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhZ2VIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Payal/Anonymous/clgproj.UI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

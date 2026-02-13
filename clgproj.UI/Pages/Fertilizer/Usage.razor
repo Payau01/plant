@@ -1,0 +1,28 @@
+﻿@using clgproj.UI.Models
+@using Clgproj.Ui.Services.Api
+
+
+<h3>Usage</h3>
+
+@code {
+
+}
+@page "/fertilizer"
+@inject FertilizerApiService FertilizerApi
+
+<h3>Fertilizer Usage</h3>
+
+<input @bind="usage.PlantId" placeholder="Plant Id" />
+<input @bind="usage.FertilizerName" placeholder="Fertilizer" />
+<input @bind="usage.Quantity" placeholder="Quantity" />
+<button @onclick="Save">Save</button>
+
+@code {
+    FertilizerUsageDto usage = new();
+
+    async Task Save()
+    {
+        await FertilizerApi.RecordUsageAsync(usage);
+        usage = new();
+    }
+}

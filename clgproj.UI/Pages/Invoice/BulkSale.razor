@@ -1,0 +1,35 @@
+﻿@using clgproj.UI.Models
+@using Clgproj.Ui.Services.Api
+
+
+
+<h3>BulkSale</h3>
+
+@code {
+
+}
+@page "/invoice/bulk"
+@inject InvoiceApiService InvoiceApi
+
+<h3>Bulk Sale Invoice</h3>
+
+<input @bind="request.FarmerName" placeholder="Farmer" />
+<input @bind="request.BuyerName" placeholder="Buyer" />
+
+<button @onclick="Generate">Generate Invoice</button>
+
+@if (invoice != null)
+{
+    <p>Invoice #: @invoice.Id</p>
+    <p>Total: @invoice.TotalAmount</p>
+}
+
+@code {
+    BulkInvoiceRequestDto request = new();
+    InvoiceDto? invoice;
+
+    async Task Generate()
+    {
+        invoice = await InvoiceApi.GenerateBulkInvoice(request);
+    }
+}
