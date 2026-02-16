@@ -1,0 +1,19 @@
+﻿@using Clgproj.Ui.Services.Api
+
+<h3>PlantAnalysis</h3>
+
+@code {
+
+}
+@page "/plants/analysis"
+
+@inject AnalysisApiService AnalysisApi
+
+<input type="file" @onchange="UploadImage" />
+
+@code {
+    async Task UploadImage(ChangeEventArgs e)
+    {
+        // call backend Analyze API
+    }
+}

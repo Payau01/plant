@@ -1,0 +1,40 @@
+﻿@using clgproj.UI.Models
+@using clgproj.UI.Services.Api
+@using clgproj.UI.Shared
+
+<h3>PlantList</h3>
+
+@code {
+
+}
+@page "/plants"
+@inject PlantApiService PlantApi
+
+<PageHeader Title="Plants" />
+
+@if (plants == null)
+{
+    <LoadingSpinner />
+}
+else
+{
+    <ul>
+        @foreach (var p in plants)
+        {
+            <li>
+                <a href="/plants/@p.Id">@p.Name</a>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    List<PlantDto>? plants;
+
+    protected override async Task OnInitializedAsync()
+    {
+        plants = await PlantApi.GetPlantsAsync();
+    }
+}
+
+
