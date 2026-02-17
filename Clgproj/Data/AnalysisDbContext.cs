@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Clgproj.Data
 {
-    public class WateringDbContext : DbContext
+    public class AnalysisDbContext : DbContext
     {
-        public WateringDbContext(DbContextOptions<WateringDbContext> options)
+        public AnalysisDbContext(DbContextOptions<AnalysisDbContext> options)
             : base(options) { }
 
         public DbSet<PlantAnalysisResult> PlantAnalysisResults

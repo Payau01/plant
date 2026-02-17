@@ -7,23 +7,23 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Clgproj.Services.Implemantations
 {
-    public class WaterOptimizationService : IWaterOptimizationService
+    public class waterOptimizationService : IwaterOptimizationService
     {
         private readonly AppDbContext _context;
 
-        public WaterOptimizationService(AppDbContext context)
+        public  class waterOptimizationService(AppDbContext context)
         {
             _context = context;
         }
 
-        public async Task<float> CalculateRequiredWaterAsync(int plantId)
+        public async Task<decimal> CalculateRequiredWaterAsync(int plantId)
         {
             // Explicitly specify the DbSet to resolve ambiguity
             var plant = await _context.Set<Plant>().FindAsync(plantId);
             if (plant == null)
                 throw new Exception("Plant not found");
 
-            var season = GetCurrentSeason();
+            var season = CurrentSeason;
 
             var rule = await _context.WaterRequirementRules
                 .FirstOrDefaultAsync(r =>
@@ -39,13 +39,22 @@ namespace Clgproj.Services.Implemantations
             return MathF.Round(requiredWater, 2);
         }
 
-        private string GetCurrentSeason()
+        Task<float> IwaterOptimizationService.CalculateRequiredWaterAsync(int plantId)
         {
-            var month = DateTime.UtcNow.Month;
+            throw new NotImplementedException();
+        }
 
-            if (month >= 3 && month <= 6) return "Summer";
-            if (month >= 7 && month <= 9) return "Rainy";
-            return "Winter";
+        
+        private string CurrentSeason
+        {
+            get
+            {
+                var month = DateTime.UtcNow.Month;
+
+                if (month >= 3 && month <= 6) return "Summer";
+                if (month >= 7 && month <= 9) return "Rainy";
+                return "Winter";
+            }
         }
     }
 }

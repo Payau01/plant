@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\clgproj.UI\Component.razor" Link="Component.razor" />
+    <None Include="..\clgproj.UI\MudDrawer.razor" Link="MudDrawer.razor" />
+    <None Include="..\clgproj.UI\Pages\Plants\Component1.razor" Link="Component1.razor" />
+    <None Include="..\clgproj.UI\Pages\_Imports.razor" Link="_Imports.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">

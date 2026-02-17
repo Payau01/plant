@@ -1,6 +1,6 @@
 ﻿namespace Clgproj.Services.Implemantations
 {
-    public class WaterRequirementRule : IWaterRequirementRule
+    public class waterRequirementRule : IwaterRequirementRule
     {
         private readonly List<WaterRequirementRule> _rules =
         [

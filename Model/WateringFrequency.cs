@@ -1,6 +1,6 @@
 ﻿namespace Clgproj.Model
 {
-    public class WateringFrequency
+    public class wateringFrequency
     {
         public const string Daily = "Daily";
         public const string Weekly = "Weekly";

@@ -90,7 +90,9 @@ namespace Clgproj.Services.Implemantations
             throw new NotImplementedException();
         }
 
+#pragma warning disable CS0473 // Explicit interface implementation matches more than one interface member
         Task<object?> IWateringService.GenerateScheduleAsync(int plantId)
+#pragma warning restore CS0473 // Explicit interface implementation matches more than one interface member
         {
             throw new NotImplementedException();
         }

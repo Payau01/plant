@@ -25,9 +25,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog();
 
 
-builder.Services.AddDbContext<WateringDbContext>(options =>
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("WateringDb")));
 
 builder.Services.AddDbContext<InvoiceDbContext>(options =>
     options.UseSqlServer(
@@ -41,22 +38,24 @@ builder.Services.AddDbContext<CultivationDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("CultivationDb")));
 
-builder.Services.AddDbContext<WateringDbContext>(options =>
+builder.Services.AddDbContext<AnalysisDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("AnalysisDb")));
 
 // Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+
+
 builder.Services.AddScoped<IPlantAnalysisService, PlantAnalysisService>();
 builder.Services.AddScoped<IWateringService, WateringService>();
-builder.Services.AddScoped<IWaterOptimizationService, WaterOptimizationService>();
-builder.Services.AddScoped<IPlantGrowthRepository, PlantGrowthRepository>();
+builder.Services.AddScoped<IwaterOptimizationService, WaterOptimizationService>();
 builder.Services.AddScoped<IPlantGrowthService, PlantGrowthService>();
 builder.Services.AddScoped<IPlantHistoryService, PlantHistoryService>();
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();
-builder.Services.AddScoped<IFertilizerUsageRepository, FertilizerUsageRepository>();
 builder.Services.AddScoped<IFertilizerService, FertilizerService>();
+builder.Services.AddScoped<IFertilizerUsageRepository, FertilizerUsageRepository>();
+builder.Services.AddScoped<IPlantGrowthRepository, PlantGrowthRepository>();
+
+
 builder.Services.AddScoped<IEventBus, EventBus>();
 
 
@@ -100,7 +99,7 @@ app.MapPost("/api/plants/{plantId}/watering/execute",
     });
 
 app.MapGet("/api/plants/{plantId}/water/optimize",
-    async (int plantId, IWaterOptimizationService service) =>
+    async (int plantId, IwaterOptimizationService service) =>
     {
         var liters = await service.CalculateRequiredWaterAsync(plantId);
         return Results.Ok(new
@@ -128,13 +127,17 @@ app.MapGet("/api/fertilizer/usage/{plantId}",
 app.MapPost("/api/invoices/bulk-sale",
     (BulkInvoiceRequest request, IInvoiceService service) =>
     {
-        var invoice = service.GenerateBulkSaleInvoice(
+        var invoice = service.GenerateBulkSaleInvoiceAsync(
             request.FarmerName,
             request.BuyerName,
             request.Items);
 
         return Results.Ok(invoice);
     });
+//
 
 
 app.Run();
+//
+
+

@@ -48,6 +48,11 @@ namespace Clgproj.Services.Implemantations
                 f.Phosphorus >= rule.RequiredPhosphorus &&
                 f.Potassium >= rule.RequiredPotassium);
         }
+
+        Task<object?> IFertilizerRecommandationService.RecommendAsync(string plantType, string growthStage)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

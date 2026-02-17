@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Clgproj.Services.Implemantations
 {
-    public class WaterOptimizationService : IWaterOptimizationService
+    public class WaterOptimizationService : IwaterOptimizationService
     {
         private readonly AppDbContext _context;
 
@@ -23,7 +23,7 @@ namespace Clgproj.Services.Implemantations
             if (plant == null)
                 throw new Exception("Plant not found");
 
-            var season = GetCurrentSeason();
+            var season = CurrentSeason;
 
             var rule = await _context.WaterRequirementRules
                 .FirstOrDefaultAsync(r =>

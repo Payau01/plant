@@ -3,21 +3,25 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Clgproj.Data
 {
-    public class PlantServiceDbContext : DbContext
+    public class PlantDbContext : DbContext
     {
-        // Fix for CS0246: Correct the type name to match the class name
-        public PlantServiceDbContext(DbContextOptions<PlantServiceDbContext> options)
+        // Constructor to initialize DbContext with options
+        public PlantDbContext(DbContextOptions<PlantServiceDbContext> options)
             : base(options) { }
 
-        public DbSet<Plant> Plants 
+
+        // Ensure there is no duplicate constructor with the same parameter types
+        // If another constructor exists, remove or modify it to avoid CS0111
+
+        public DbSet<Plant> Plants
             => Set<Plant>();
 
-        public DbSet<PlantGrowthRecord> PlantGrowthRecords 
+        public DbSet<PlantGrowthRecord> PlantGrowthRecords
             => Set<PlantGrowthRecord>();
 
-        public DbSet<PlantHistory> PlantHistories 
+        public DbSet<PlantHistory> PlantHistories
             => Set<PlantHistory>();
     }
-
+    
 }
 

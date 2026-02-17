@@ -1,6 +1,6 @@
 ﻿namespace Clgproj.Model
 {
-    public class BulkInvoiceRequest
+    public class bulkInvoiceRequest
     {
 
         public string FarmerName { get; set; } = string.Empty;

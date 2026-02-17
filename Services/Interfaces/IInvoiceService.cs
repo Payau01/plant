@@ -19,5 +19,6 @@ namespace Clgproj.Services.Interfaces
         Task<bool> UpdateInvoiceAsync(Invoice invoice);
         Task<bool> DeleteInvoiceAsync(int id);
         Task<decimal> CalculateTotalAmountAsync(int invoiceId);
+        object? GenerateBulkSaleInvoiceAsync(string farmerName, string buyerName, List<Model.InvoiceItem> items);
     }
 }

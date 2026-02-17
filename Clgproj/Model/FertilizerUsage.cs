@@ -9,7 +9,7 @@
         public decimal QuantityKg { get; set; }
         public DateTime AppliedOn { get; set; }
         public string Notes { get; set; } = string.Empty;
-        public object? QuantityInGrams { get; internal set; }
+        public decimal QuantityInGrams { get; internal set; }
     }
 }
 

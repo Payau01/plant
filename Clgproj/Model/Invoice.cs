@@ -10,9 +10,12 @@
 
             public DateTime InvoiceDate { get; set; }
 
-            public float TotalAmount { get; set; }
-        public List<InvoiceItem>? Items { get; internal set; }
-        public object TaxAmount { get; internal set; }
-        public object GrandTotal { get; internal set; }
+            public decimal TotalAmount { get; set; }
+            public decimal TaxAmount { get;  set; }
+            public decimal GrandTotal { get; set; }
+
+             // Navigation property
+            public List<InvoiceItem> Items { get; set; } = new();
+
     }
 }

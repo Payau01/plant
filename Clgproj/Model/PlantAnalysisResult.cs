@@ -1,6 +1,6 @@
 ﻿namespace Clgproj.Model
 {
-    public class PlantAnalysisResult
+    public class plantAnalysisResult
 
     {
         public int Id { get; set; }
@@ -10,7 +10,7 @@
         public string Recommendation { get; set; } = string.Empty;
         public string? HealthStatus { get; internal set; }
         public int PlantId { get; internal set; }
-        public object PlantType { get; internal set; }
+        public object? PlantType { get; internal set; }
     }
 }
 

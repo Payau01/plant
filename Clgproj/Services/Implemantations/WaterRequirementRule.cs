@@ -8,6 +8,10 @@
         new() { PlantType = "Tomato", Season = "Winter", RequiredLiters = 1.5f }
         ];
 
+        public string PlantType { get; internal set; }
+        public string Season { get; internal set; }
+        public float RequiredLiters { get; internal set; }
+
         public Task<WaterRequirementRule?> GetRuleAsync(string plantType, string season)
         {
             var rule = _rules.FirstOrDefault(r =>

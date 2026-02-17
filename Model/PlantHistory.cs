@@ -1,6 +1,6 @@
 ﻿namespace Clgproj.Model
 {
-    public class PlantHistory
+    public class plantHistory
     {
         public int Id { get; set; }
         public int PlantId { get; set; }

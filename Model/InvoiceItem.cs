@@ -6,15 +6,15 @@
 
         public string ProductName { get; set; } = string.Empty;
 
-        public float QuantityKg { get; set; }
-        public float RatePerKg { get; set; }
+        public decimal QuantityKg { get; set; }
+        public decimal RatePerKg { get; set; }
 
         // ✅ Computed property (NOT stored in DB)
-        public float Amount => QuantityKg * RatePerKg;
+        public decimal Amount => Quantity * RatePerKg;
 
-        public int Price { get; internal set; }
-        public object? InvoiceId { get; internal set; }
-        public object? UnitPrice { get; internal set; }
-        public object? TotalPrice { get; internal set; }
+        public int Price { get;  set; }
+        public int InvoiceId { get; set; }
+        public decimal UnitPrice { get;  set; }
+        public decimal TotalPrice { get;  set; }
     }
 }

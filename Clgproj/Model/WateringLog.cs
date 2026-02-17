@@ -1,6 +1,6 @@
 ﻿namespace Clgproj.Model
 {
-    public class WateringLog
+    public class wateringLog
     {
         public int Id { get; set; }
         public int PlantId { get; set; }

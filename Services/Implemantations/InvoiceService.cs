@@ -56,6 +56,11 @@ namespace Clgproj.Services.Implemantations
             return invoice;
         }
 
+        public object? GenerateBulkSaleInvoiceAsync(string farmerName, string buyerName, List<InvoiceItem> items)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<IEnumerable<Invoice>> GetAllInvoicesAsync()
         {
             throw new NotImplementedException();

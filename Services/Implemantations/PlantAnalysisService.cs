@@ -3,7 +3,7 @@ using Clgproj.Services.Interfaces;
 
 namespace Clgproj.Services.Implemantations
 {
-    public class PlantAnalysisService : IPlantAnalysisService
+    public class plantAnalysisService : IPlantAnalysisService
     {
         public async Task<PlantAnalysisResult> AnalyzePlantAsync(IFormFile plantImage)
         {

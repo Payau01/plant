@@ -9,11 +9,7 @@ namespace Clgproj.Services.Implemantations
     {
         private readonly IPlantGrowthRepository _repository;
 
-        public PlantGrowthService(IPlantGrowthRepository repository)
-        {
-            _repository = repository;
-        }
-
+        
         public async Task AddGrowthRecordAsync(PlantGrowthRecord record)
         {
             // Basic domain validation
@@ -23,11 +19,11 @@ namespace Clgproj.Services.Implemantations
             record.RecordedOn = DateTime.UtcNow;
 
             object value = _repository.Add(record);
+            await _repository.AddAsync(record);   // ✅ FIXED
         }
 
-        public async Task<List<PlantGrowthRecord>> GetGrowthHistoryAsync(int plantId)
-        {
-            return _repository.GetByPlantId(plantId);
-        }
+        public async Task<List<PlantGrowthRecord>> GetGrowthHistoryAsync(int plantId) => _repository.GetByPlantIdAsync(plantId);
     }
-}
+
+} /////
+
