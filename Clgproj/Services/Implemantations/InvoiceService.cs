@@ -99,5 +99,10 @@ namespace Clgproj.Services.Implementations
         {
             return this.GenerateBulkSaleInvoiceAsync(farmerName, buyerName, items);
         }
+
+        public Invoice GenerateBulkSaleInvoice(string farmerName, string buyerName, List<InvoiceItem> items)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

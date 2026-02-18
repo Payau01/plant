@@ -9,11 +9,5 @@ namespace Clgproj.Services.Interfaces
         Task<List<PlantGrowthRecord>> GetGrowthHistoryAsync(int plantId);
     }
 
-    public interface IPlantGrowthService
-    {
-        Task AddGrowthRecordAsync(PlantGrowthRecord record);
-        Task<List<PlantGrowthRecord>> GetGrowthHistoryAsync(int plantId);
-
-    }
 }
-//
+

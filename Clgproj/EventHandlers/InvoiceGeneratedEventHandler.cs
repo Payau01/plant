@@ -7,7 +7,7 @@ namespace Clgproj.EventHandlers
     {
         private readonly AppDbContext _context;
 
-        public InvoiceGeneratedEventHandler(AppDbContext context)
+        public InvoiceGeneratedEventHandle(AppDbContext context)
         {
             _context = context;
         }

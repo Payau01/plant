@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Clgproj.Data
 {
-    public class WateringServiceDbContext : DbContext
+    public class wateringServiceDbContext : DbContext
     {
         public DbSet<WateringSchedule> WateringSchedules
                 => Set<WateringSchedule>();

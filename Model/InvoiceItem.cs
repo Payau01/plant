@@ -16,5 +16,6 @@
         public int InvoiceId { get; set; }
         public decimal UnitPrice { get;  set; }
         public decimal TotalPrice { get;  set; }
+        public decimal Total { get; internal set; }
     }
 }

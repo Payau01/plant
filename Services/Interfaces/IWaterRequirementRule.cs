@@ -2,8 +2,9 @@
 
 namespace Clgproj.Services.Interfaces
 {
-    public interface IWaterRequirementRule
+    public interface IwaterRequirementRule
     {
         Task<WaterRequirementRule?> GetRuleAsync(string plantType, string season);
+
     }
 }

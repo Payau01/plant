@@ -1,4 +1,6 @@
-﻿namespace Clgproj.Services.Implemantations
+﻿using Clgproj.Services.Interfaces;
+
+namespace Clgproj.Services.Implemantations
 {
     public class WaterRequirementRule : IWaterRequirementRule
     {
@@ -8,9 +10,9 @@
         new() { PlantType = "Tomato", Season = "Winter", RequiredLiters = 1.5f }
         ];
 
-        public string PlantType { get; internal set; }
-        public string Season { get; internal set; }
-        public float RequiredLiters { get; internal set; }
+        public string? PlantType { get;  set; }
+        public string? Season { get; set; }
+        public float RequiredLiters { get;  set; }
 
         public Task<WaterRequirementRule?> GetRuleAsync(string plantType, string season)
         {
@@ -19,6 +21,11 @@
                 r.Season == season);
 
             return Task.FromResult(rule);
+        }
+
+        Task<Model.WaterRequirementRule?> IWaterRequirementRule.GetRuleAsync(string plantType, string season)
+        {
+            throw new NotImplementedException();
         }
     }
 }

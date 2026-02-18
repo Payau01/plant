@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Clgproj.Services.Implemantations
 {
-    public class WaterOptimizationService : IwaterOptimizationService
+    public class WaterOptimizationService : IWaterOptimizationService
     {
         private readonly AppDbContext _context;
 
@@ -23,10 +23,10 @@ namespace Clgproj.Services.Implemantations
             if (plant == null)
                 throw new Exception("Plant not found");
 
-            var season = CurrentSeason;
+            var season = GetCurrentSeason;
 
             var rule = await _context.WaterRequirementRules
-                .FirstOrDefaultAsync(r =>
+                .FirstOrDefault(r =>
                     r.PlantType == plant.Species &&
                     r.Season == season);
 
@@ -37,6 +37,21 @@ namespace Clgproj.Services.Implemantations
             var requiredWater = rule.BaseLitersPerDay * rule.AdjustmentFactor;
 
             return MathF.Round(requiredWater, 2);
+        }
+
+        public Task<object> CalculateRequiredWaterAsync(int plantId, object weatherData)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IWaterOptimizationService.CalculateRequiredWaterAsync(int plantId)
+        {
+            return CalculateRequiredWaterAsync(plantId);
+        }
+
+        Task<decimal> IWaterOptimizationService.CalculateRequiredWaterAsync(int plantId)
+        {
+            throw new NotImplementedException();
         }
 
         private string GetCurrentSeason()

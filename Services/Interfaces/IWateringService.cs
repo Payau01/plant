@@ -2,7 +2,7 @@
 
 namespace Clgproj.Services.Interfaces
 {
-    public interface IWateringService
+    public interface IwateringService
     {
         Task<WateringSchedule> GenerateScheduleAsync(int plantId,
             WateringFrequency frequency);

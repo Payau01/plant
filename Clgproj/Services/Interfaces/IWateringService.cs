@@ -9,5 +9,7 @@ namespace Clgproj.Services.Interfaces
         Task<bool> ExecuteWateringIfDueAsync(int plantId, object v);
         Task<object?> GenerateScheduleAsync(int plantId);
         object GetWaterFrequency();
+        Task<bool> ExecuteWateringIfDueAsync(int plantId, WateringFrequency wateringFrequency);
+        WateringFrequency GetWateringFrequency(int plantId);
     }
 }

@@ -7,6 +7,12 @@ namespace Clgproj.Services.Interfaces
 
         Task RecordUsageAsync(FertilizerUsage usage);
         Task<List<FertilizerUsage>> GetUsageHistoryAsync(int plantId);
+        Task<List<FertilizerRecommendation>> GetRecommendationsAsync(int plantId);
+        Task<FertilizerRecommendation> GetOptimalRecommendationAsync(int plantId);
+        Task<List<FertilizerRecommendation>> GetRecommendationsByGrowthStageAsync(int plantId, string growthStage);
+        Task<List<FertilizerRecommendation>> GetRecommendationsByPlantTypeAsync(string plantType);
+        Task<List<FertilizerRecommendation>> GetRecommendationsByPlantTypeAndGrowthStageAsync(string plantType, string growthStage);
+
     }
 }
 

@@ -5,8 +5,6 @@ namespace Clgproj.Data
 {
 
 
-    namespace Clgproj.Data
-    {
         public class CropYieldDbContext : DbContext
         {
             public CropYieldDbContext(DbContextOptions<CropYieldDbContext> options)
@@ -19,4 +17,4 @@ namespace Clgproj.Data
         }
 
     }
-}
+

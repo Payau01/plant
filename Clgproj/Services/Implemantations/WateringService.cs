@@ -1,6 +1,8 @@
 ﻿using Clgproj.Data;
 using Clgproj.Model;
 using Clgproj.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace Clgproj.Services.Implemantations
 {
@@ -9,12 +11,8 @@ namespace Clgproj.Services.Implemantations
     {
         private readonly AppDbContext _context;
 
-        public WateringService(AppDbContext context)
-        {
-            _context = context;
-        }
 
-        public async Task<WateringSchedule> GenerateScheduleAsync(int plantId, object wateringFrequency)
+        public async Task<WateringSchedule> GenerateSchedule(int plantId, object wateringFrequency)
         {
             // Example logic (can grow later)
             float liters = 2.5f; // calculated based on plant type, weather, soil
@@ -22,7 +20,6 @@ namespace Clgproj.Services.Implemantations
             var schedule = new WateringSchedule
             {
                 PlantId = plantId,
-                Frequency = WateringFrequency.Daily,
                 LitersRequired = liters,
                 LastWateredOn = DateTime.UtcNow,
                 NextWateringOn = DateTime.UtcNow.AddDays(1)
@@ -64,7 +61,7 @@ namespace Clgproj.Services.Implemantations
             schedule.LastWateredOn = DateTime.UtcNow;
             schedule.NextWateringOn = schedule.Frequency switch
             {
-                wateringFrequency.Daily => DateTime.UtcNow.AddDays(1),
+                WateringFrequency.Daily => DateTime.UtcNow.AddDays(1),
                 WateringFrequency.Weekly => DateTime.UtcNow.AddDays(7),
                 WateringFrequency.Monthly => DateTime.UtcNow.AddMonths(1),
                 _ => DateTime.UtcNow
@@ -80,19 +77,11 @@ namespace Clgproj.Services.Implemantations
             Console.WriteLine($"Sprinkler ON → {liters} liters");
         }
 
-        public Task<WateringSchedule> GenerateScheduleAsync(int plantId)
-        {
-            throw new NotImplementedException();
-        }
-
         public Task<WateringSchedule> GenerateScheduleAsync(int plantId, WateringFrequency frequency)
         {
             throw new NotImplementedException();
         }
+        
 
-        Task<object?> IWateringService.GenerateScheduleAsync(int plantId)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

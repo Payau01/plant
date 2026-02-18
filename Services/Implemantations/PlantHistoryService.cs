@@ -6,18 +6,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Clgproj.Services.Implemantations
 {
-    public class PlantHistoryService :IPlantHistoryService
+    public class plantHistoryService :IPlantHistoryService
     {
         private readonly AppDbContext _context;
 
-        public PlantHistoryService(AppDbContext context)
+        public plantHistoryService(AppDbContext context)
         {
             _context = context;
         }
         public async Task<Plant> GetPlantWithHistoryAsync(int plantId)
         {
             // Implementation for fetching plant history
-            return await _context.Plants
+            return await _context.Plant
                 .Include(p => p.History)
                 .FirstOrDefaultAsync(p => p.Id == plantId);
         }

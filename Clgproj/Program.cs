@@ -34,20 +34,23 @@ builder.Services.AddDbContext<FertilizerDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("FertilizerDb")));
 
-builder.Services.AddDbContext<CultivationDbContext>(options =>
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("CultivationDb")));
 
 builder.Services.AddDbContext<AnalysisDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("AnalysisDb")));
+
+builder.Services.AddDbContext<BillingDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("BillingDb")));
+
+
 
 // Add services to the container.
 
 
 builder.Services.AddScoped<IPlantAnalysisService, PlantAnalysisService>();
 builder.Services.AddScoped<IWateringService, WateringService>();
-builder.Services.AddScoped<IwaterOptimizationService, WaterOptimizationService>();
+builder.Services.AddScoped<IWaterOptimizationService, WaterOptimizationService>();
 builder.Services.AddScoped<IPlantGrowthService, PlantGrowthService>();
 builder.Services.AddScoped<IPlantHistoryService, PlantHistoryService>();
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();
@@ -99,7 +102,7 @@ app.MapPost("/api/plants/{plantId}/watering/execute",
     });
 
 app.MapGet("/api/plants/{plantId}/water/optimize",
-    async (int plantId, IwaterOptimizationService service) =>
+    async (int plantId, IWaterOptimizationService service) =>
     {
         var liters = await service.CalculateRequiredWaterAsync(plantId);
         return Results.Ok(new
@@ -138,6 +141,6 @@ app.MapPost("/api/invoices/bulk-sale",
 
 
 app.Run();
-//
+
 
 

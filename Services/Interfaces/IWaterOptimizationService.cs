@@ -2,8 +2,10 @@
 
 namespace Clgproj.Services.Interfaces
 {
-    public interface IwaterOptimizationService
+    public interface IWaterOptimizationService
     {
-        Task<float> CalculateRequiredWaterAsync(int plantId);
+        
+        Task<object> CalculateRequiredWaterAsync(int plantId, object weatherData);
+        Task CalculateRequiredWaterAsync(int plantId);
     }
 }

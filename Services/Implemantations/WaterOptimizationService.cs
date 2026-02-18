@@ -7,15 +7,21 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Clgproj.Services.Implemantations
 {
-    public class waterOptimizationService : IwaterOptimizationService
+    public class waterOptimizationService : IWaterOptimizationService
     {
+        private readonly IWaterRequirementRule _ruleService;
         private readonly AppDbContext _context;
 
-        public  class waterOptimizationService(AppDbContext context)
+        public waterOptimizationService(IWaterRequirementRule ruleService)
         {
-            _context = context;
-        }
+            AppDbContext context,
+           _ruleService = ruleService)
+            {
+                _context = context,
+                _ruleService = ruleService;
 
+            }
+        }
         public async Task<decimal> CalculateRequiredWaterAsync(int plantId)
         {
             // Explicitly specify the DbSet to resolve ambiguity
@@ -39,12 +45,21 @@ namespace Clgproj.Services.Implemantations
             return MathF.Round(requiredWater, 2);
         }
 
-        Task<float> IwaterOptimizationService.CalculateRequiredWaterAsync(int plantId)
+        public Task<object> CalculateRequiredWaterAsync(int plantId, object weatherData)
         {
             throw new NotImplementedException();
         }
 
-        
+        Task IWaterOptimizationService.CalculateRequiredWaterAsync(int plantId)
+        {
+            return CalculateRequiredWaterAsync(plantId);
+        }
+
+        Task<float> IWaterOptimizationService.CalculateRequiredWaterAsync(int plantId)
+        {
+            throw new NotImplementedException();
+        }
+
         private string CurrentSeason
         {
             get
@@ -58,3 +73,4 @@ namespace Clgproj.Services.Implemantations
         }
     }
 }
+

@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Clgproj.Data
 {
-    public class invoiceDbContext : DbContext
+    public class BillingDbContext : DbContext
     {
-        public invoiceDbContext(DbContextOptions<InvoiceDbContext> options)
+        public BillingDbContext(DbContextOptions<BillingDbContext> options)
             : base(options)
         { }
 

@@ -3,8 +3,14 @@ using Microsoft.AspNetCore.Http;
 
 namespace Clgproj.Services.Interfaces
 {
-    public interface IPlantAnalysisService
+    public interface IplantAnalysisService
     {
-        Task<PlantAnalysisResult> AnalyzePlantAsync(IFormFile plantImage);
+        Task<PlantAnalysisResult> GetAnalysisResultAsync(int plantId);
+        Task<IEnumerable<PlantAnalysisResult>> GetPlantHistoryAsync(int plantId);
+        Task UpdatePlantHealthStatusAsync(int plantId, string healthStatus);
+        Task UpdatePlantTypeAsync(int plantId, object plantType);
+        Task UpdatePlantAnalysisResultAsync(PlantAnalysisResult result);
+        Task DeletePlantAnalysisResultAsync(int plantId);
+        Task<object> PlantAnalysisAsync(IFormFile image);
     }
 }

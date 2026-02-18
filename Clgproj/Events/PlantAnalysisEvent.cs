@@ -1,13 +1,13 @@
 ﻿namespace Clgproj.Events
 {
-    public class PlantAnalysisEvent
+    public class plantAnalysisEvent
     {
         public int PlantId { get; }
         public string HealthStatus { get; }
-        public float Confidence { get; }
+        public decimal Confidence { get; }
         public DateTime AnalyzedOn { get; }
 
-        public PlantAnalysisEvent(int plantId, string healthStatus, float confidence)
+        public plantAnalysisEvent(int plantId, string healthStatus, decimal confidence)
         {
             PlantId = plantId;
             HealthStatus = healthStatus;

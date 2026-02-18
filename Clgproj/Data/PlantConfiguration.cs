@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Clgproj.Data
 {
-    public class PlantConfiguration : IEntityTypeConfiguration<Plant>
+    public class plantConfiguration : IEntityTypeConfiguration<Plant>
     {
         public void Configure(EntityTypeBuilder<Plant> entity)
         {

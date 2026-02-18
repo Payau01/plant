@@ -8,7 +8,12 @@ using Clgproj.Repository.Interfaces;
 using Clgproj.Services.Implemantations;
 using Clgproj.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 using Serilog;
+using Serilog.Core;
+using Serilog.Events;
+
+using static Clgproj.Services.Implemantations.waterOptimizationService;
 
 
 Log.Logger = new LoggerConfiguration()
@@ -48,12 +53,12 @@ builder.Services.AddDbContext<AnalysisDbContext>(options =>
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
 
 
 builder.Services.AddScoped<IPlantAnalysisService, PlantAnalysisService>();
 builder.Services.AddScoped<IWateringService, WateringService>();
-builder.Services.AddScoped<IwaterOptimizationService, WaterOptimizationService>();
+builder.Services.AddScoped<IWaterOptimizationService, WaterOptimizationService>();
 builder.Services.AddScoped<IPlantGrowthRepository, PlantGrowthRepository>();
 builder.Services.AddScoped<IPlantGrowthService, PlantGrowthService>();
 builder.Services.AddScoped<IPlantHistoryService, PlantHistoryService>();
@@ -98,26 +103,22 @@ builder.Services.AddScoped<
 
 
 var app = builder.Build();
+builder.Services.AddOpenApi();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-        app.UseSwagger();
-        app.UseSwaggerUI();
-    
+    app.MapOpenApi();
+    app.MapScalarApiReference();  // Instead of UseSwaggerUI()
 
 }
+
+
 app.UseRouting();
 
 app.UseHttpsRedirection();
 
 
-app.MapPost("/api/plant/analyze",
-    async (IFormFile image, IPlantAnalysisService service) =>
-    {
-        var result = await service.AnalyzePlantAsync(image);
-        return Results.Ok(result);
-    });
 app.MapPost("/api/plant/analyze",
     async (HttpRequest request, IPlantAnalysisService service) =>
     {
@@ -132,11 +133,6 @@ app.MapPost("/api/plant/analyze",
     });
 
 
-app.MapGet("/api/plants/{id}/history",
-    async (int id, IPlantHistoryService service) =>
-    {
-        return Results.Ok(await service.GetPlantWithHistoryAsync(id));
-    });
 
 app.MapPost("/api/plants/{plantId}/watering/schedule",
     async (int plantId, IWateringService service) =>
@@ -153,7 +149,7 @@ app.MapPost("/api/plants/{plantId}/watering/execute",
     });
 
 app.MapGet("/api/plants/{plantId}/water/optimize",
-    async (int plantId, IwaterOptimizationService service) =>
+    async (int plantId, IWaterOptimizationService service) =>
     {
         var liters = await service.CalculateRequiredWaterAsync(plantId);
         return Results.Ok(new
@@ -161,6 +157,12 @@ app.MapGet("/api/plants/{plantId}/water/optimize",
             PlantId = plantId,
             RequiredWaterInLiters = liters
         });
+    });
+
+app.MapGet("/api/plants/{id}/history",
+    async (int id, IPlantHistoryService service) =>
+    {
+        return Results.Ok(await service.GetPlantWithHistoryAsync(id));
     });
 
 app.MapPost("/api/fertilizer/usage",

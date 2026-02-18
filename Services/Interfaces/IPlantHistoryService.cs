@@ -2,8 +2,8 @@
 
 namespace Clgproj.Services.Interfaces
 {
-    public interface IPlantHistoryService
+    public interface IplantHistoryService
     {
-        Task<Plant> GetPlantWithHistoryAsync(int plantId);
+        Task<object> GetPlantWithHistoryAsync(int plantId);
     }
 }

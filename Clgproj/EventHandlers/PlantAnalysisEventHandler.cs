@@ -4,11 +4,11 @@ using Clgproj.Model;
 
 namespace Clgproj.EventHandlers
 {
-    public class PlantAnalysisEventHandler
+    public class plantAnalysisEventHandler
     {
         private readonly AppDbContext _context;
 
-        public PlantAnalysisEventHandler(AppDbContext context)
+        public plantAnalysisEventHandler(AppDbContext context)
         {
             _context = context;
         }

@@ -1,13 +1,13 @@
 ﻿namespace Clgproj.Events
 {
-    public class FertilizerUsedEvent
+    public class fertilizerUsedEvent
     {
         public int PlantId { get; }
         public string FertilizerName { get; }
         public float QuantityInGrams { get; }
         public DateTime AppliedOn { get; }
 
-        public FertilizerUsedEvent(int plantId, string fertilizerName, float quantity)
+        public fertilizerUsedEvent(int plantId, string fertilizerName, float quantity)
         {
             PlantId = plantId;
             FertilizerName = fertilizerName;
